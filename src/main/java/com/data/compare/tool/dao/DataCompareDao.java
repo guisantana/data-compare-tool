@@ -88,7 +88,7 @@ public class DataCompareDao {
                         primaryKeyValue.setMessage(primaryKeyValue.getMessage()+" - "+table.getCatalog());
                         primaryKeyValue.setDuplicated(true);
                         
-                        duplicatedMap.put(value, primaryKeyValue.getMessage()+" - "+table.getCatalog());
+                        duplicatedMap.put(value, primaryKeyValue.getMessage());
                         
                         break;
                     }
