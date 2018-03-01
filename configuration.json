@@ -1,0 +1,31 @@
+{
+"connections": [
+    {
+    	"name": "Banco 1",
+    	"driverClass": "org.postgresql.Driver",
+	"url": "jdbc:postgresql://127.0.0.1:5432/banco1",
+	"user": "test",
+	"password": "test"
+    },
+    {
+    	"name": "Banco 2",
+    	"driverClass": "org.postgresql.Driver",
+	"url": "jdbc:postgresql://127.0.0.1:5432/banco2",
+	"user": "test",
+	"password": "test"
+    },
+    {
+    	"name": "Banco 3",
+    	"driverClass": "org.postgresql.Driver",
+	"url": "jdbc:postgresql://127.0.0.1:5432/banco3",
+	"user": "test",
+	"password": "test"
+    }
+    {
+    	"name": "Banco 4",
+    	"driverClass": "org.postgresql.Driver",
+	"url": "jdbc:postgresql://127.0.0.1:5432/banco4",
+	"user": "test",
+	"password": "test"
+    }]
+}
