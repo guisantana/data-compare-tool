@@ -26,7 +26,7 @@ public class DataCompare {
 
         try {
             LOGGER.setUseParentHandlers(false);
-            FileHandler fh = new FileHandler("/home/guilherme/projects/database-merge-analysis/projects/data-compare-tool/resultFile.log");
+            FileHandler fh = new FileHandler("resultFile.log");
             LOGGER.addHandler(fh);
             MyFormatter formatter = new MyFormatter();
             fh.setFormatter(formatter);
